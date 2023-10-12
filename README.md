@@ -1,5 +1,5 @@
 ## Tienda Java Application
-![_15a1efb7-8154-43bb-8183-25b4d3fd5ad9](https://github.com/Luishervic/Tienda-JDBC/assets/83683548/b59d5712-b0b3-4f53-80f0-8adf9ef9464c)
+<![Java MySQL](https://github.com/Luishervic/Tienda-JDBC/assets/83683548/113fb950-3333-4aa6-9c13-2b4b543bd728)
 
 
 This Java application, Tienda, serves as a store management system allowing users to query product information from a MySQL database. It employs the Java language, MySQL database, and JDBC for database operations.
