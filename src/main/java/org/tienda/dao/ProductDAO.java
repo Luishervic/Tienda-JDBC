@@ -14,6 +14,5 @@ public interface ProductDAO {
     Product findChepestProduct();
     Product findProductByCode(int code);
     void insertProduct(Product product);
-    void insertManufacturer(Manufacturer manufacturer);
     void updateProduct(Product product);
 }

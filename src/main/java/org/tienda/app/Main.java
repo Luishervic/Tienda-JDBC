@@ -1,5 +1,6 @@
 package org.tienda.app;
 
+import org.tienda.dao.ManufacturerDAOImpl;
 import org.tienda.dao.ProductDAOImpl;
 import org.tienda.model.Manufacturer;
 import org.tienda.model.Product;
@@ -11,6 +12,7 @@ import java.util.Scanner;
 
 public class Main {
     private static final ProductDAOImpl productDAO = new ProductDAOImpl();
+    private static final ManufacturerDAOImpl manufacturerDAO = new ManufacturerDAOImpl();
     private static final Scanner scanner = new Scanner(System.in).useDelimiter("\n");
 
     public static void main(String[] args){
@@ -124,7 +126,7 @@ public class Main {
 
     public static void insertManufacturerMenu()  {
         Manufacturer manufacturer = fillManufacurer();
-        productDAO.insertManufacturer(manufacturer);
+        manufacturerDAO.insertManufacturer(manufacturer);
         System.out.println("Manufacturer inserted successfully.");
     }
 
